@@ -4,11 +4,11 @@
 
 ### Fast mode
 
-By default, FM TOWNS runs on '互換モード (compatibility mode)'. It limits the CPU speed to almost the same as 386 16MHz.
+By default, FM TOWNS runs on '互換モード (compatibility mode)'. It limits the performance to almost the same as 386 16MHz.
 
 - Boot from 'Townsシステムソフトウェア V2.1 (Towns System Software V2.1)'
    - Turn on '設定 (settings)' → '高速モード (fast mode)'
-   - Only available on CX or floowings.
+   - Not available on early models prior to CX.
 
 ### ROM drive
 

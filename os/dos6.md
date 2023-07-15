@@ -13,7 +13,7 @@
       - disk 5: `\FD_IMG\DOS6FD5`
       - disk 6: `\FD_IMG\DOS6FD6`
 
-## Prerequisite
+## Prerequisites
 
 - HDD (with SCSI ID 0-4)
 - 'Important settings' in [CMOS](../etc/cmos.md)
@@ -148,6 +148,8 @@ For example, execute `format e:` to format `E:` drive.
 ![Sceenshot of formatting E: drive](./dos6-images/format-e.png)
 
 #### CD-ROM drive
+
+*Not necessary if you plan to install TownsOS over this MS-DOS 6 installation.*
 
 To make `Q:` as CD-ROM drive, need to edit some files:
 
