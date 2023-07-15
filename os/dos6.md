@@ -1,4 +1,6 @@
-# MS-DOS 6
+---
+title: MS-DOS 6
+---
 
 ## Get
 
@@ -65,7 +67,7 @@
    - `A:` Floppy Drive #0
    - `B:` Floppy Drive #1
    - `C:` ROM
-      - if `C:` is not a ROM drive, deallocate all drives other than `A:` and `B: ` from tail to head and follow the instruction in [CMOS](../etc/cmos.md)
+      - if `C:` is not a ROM drive, deallocate all drives other than `A:` and `B:` from tail to head and follow the instruction in [CMOS](../etc/cmos.md)
    - `D:`, `E:`... 'ハードディスク (harddisk)'
       - 'ユニット N (unit N)' means SCSI ID N
       - allocate as much drives as partitions you will create

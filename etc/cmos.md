@@ -1,4 +1,6 @@
-# CMOS settings
+---
+title: CMOS settings
+---
 
 ## Important settings
 

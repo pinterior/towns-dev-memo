@@ -1,4 +1,6 @@
-# FM TOWNS Dev Memo
+---
+title: FM TOWNS Dev Memo
+---
 
 ## OS Installation
 

@@ -1,4 +1,6 @@
-# TownsOS V2.1 on MS-DOS 6
+---
+title: TownsOS V2.1 on MS-DOS 6
+---
 
 ## Get
 
