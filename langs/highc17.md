@@ -44,9 +44,9 @@ title: High C 1.7
       - 'サンプルプログラムのインストール (install sample programs)
       - 'マニュアルファイルのインストール (install manual document files)
       - '各種ライブラリファイルのインストール' (install extra libraries)
-      - '開発環境のインストール (install DEVELOP.SYS)'
+      - '開発環境のインストール (install develop environment)'
          - *NOT recommended*
-         - install hotkey driver to change screen mode for debugging
+         - install `DEVELOP.SYS`, a hotkey driver to change screen mode for debugging
 4. Installation
 5. Update `AUTOEXEC.BAT` for `IPATH` environment variable
 - ![Alt text](./highc17-images/installer-autoexec-drive.png)
@@ -76,7 +76,7 @@ SET PATH=%PATH%;D:\HC386\BIN
 
 - `NATIVERUN` must set to 386|DOS-Extender command line
    - variable is set to `Q:\RUN386.EXE -nocrt`
-   - change the drive letter to properly point `RUN386.EXE` on your boot drive
+   - change the drive letter to point `RUN386.EXE` on your boot drive
    - do not remove `-nocrt` option
 
 ##### Example
@@ -85,7 +85,7 @@ SET PATH=%PATH%;D:\HC386\BIN
 
 #### HC386SET.CNF
 
-*This section is not neccesary if you installed 'High C Compiler マルチメディア開発キット V1.7**L13**'*
+*This section is not neccesary if you installed 'High C Compiler マルチメディア**開発**キット V1.7**L13**'*
 
 - Empty `TOOLSDIR` variable wrongly set to `q:\hc386\bin`
 - Empty `USERLIBE` and `USERLIBC` variable wrongly pointing library files on `q:\hc386\townslib\lib`
@@ -99,7 +99,7 @@ SET PATH=%PATH%;D:\HC386\BIN
 
 #### HCD386P.EXP
 
-*This section is not neccesary if you installed 'High C Compiler マルチメディア開発キット V1.7**L13**'*
+*This section is not neccesary if you installed 'High C Compiler マルチメディア**開発**キット V1.7**L13**'*
 
 Header file search path `Q:\HC386\INC\;Q:\HC386\TOWNSLIB\INCLUDE\` referencing `Q:` drive is embedded in executable file.
 
