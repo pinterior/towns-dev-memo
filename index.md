@@ -40,7 +40,7 @@ to build `.exp` files.
 #### Native
 
 - C
-   - High C
+   - [High C 1.7](./langs/highc17.md)
 - Assembly
    - 386|ASM
 
